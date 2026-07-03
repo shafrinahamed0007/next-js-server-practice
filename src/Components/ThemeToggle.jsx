@@ -1,0 +1,43 @@
+"use client";
+
+import { useTheme } from "@heroui/react";
+import { Sun, Moon } from "@gravity-ui/icons";
+import { Switch } from "@heroui/react";
+
+const ThemeToggle = () => {
+  const { theme, setTheme } = useTheme();
+  return (
+    <div>
+      {/* <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+        Toggle {theme === "dark" ? "ligth" : "dark"}
+      </button> */}
+
+      <Switch
+        onChange={() => setTheme(theme === "dark" ? "ligth" : "dark")}
+        aria-label="Moon"
+      >
+        {({ isSelected }) => (
+          <Switch.Content>
+            <Switch.Control
+              className={`h-[31px] w-[51px] bg-blue-500 ${isSelected ? "bg-cyan-500 shadow-[0_0_12px_rgba(6,182,212,0.5)]" : ""}`}
+            >
+              <Switch.Thumb
+                className={`size-[27px] bg-white shadow-sm ${isSelected ? "ms-[22px] shadow-lg" : ""}`}
+              >
+                <Switch.Icon>
+                  {isSelected ? (
+                    <Sun className="size-4 text-cyan-600" />
+                  ) : (
+                    <Moon className="size-4 text-blue-600" />
+                  )}
+                </Switch.Icon>
+              </Switch.Thumb>
+            </Switch.Control>
+          </Switch.Content>
+        )}
+      </Switch>
+    </div>
+  );
+};
+
+export default ThemeToggle;

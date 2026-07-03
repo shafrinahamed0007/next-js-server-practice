@@ -1,0 +1,87 @@
+[
+    {
+        "id": "task_001",
+        "title": "Design Landing Page",
+        "description": "Create high-fidelity wireframes and mockups for the new product landing page.",
+        "status": "In Progress",
+        "priority": "High",
+        "category": "Design",
+        "dueDate": "2026-07-05",
+        "assignedTo": {
+            "name": "Alex Rivera",
+            "email": "alex@company.com"
+        },
+        "tags": [
+            "UI/UX",
+            "Figma",
+            "Marketing"
+        ]
+    },
+    {
+        "id": "task_002",
+        "title": "Fix Authentication Bug",
+        "description": "Resolve the intermittent 401 error occurring during OAuth token refresh.",
+        "status": "Todo",
+        "priority": "Critical",
+        "category": "Engineering",
+        "dueDate": "2026-07-02",
+        "assignedTo": {
+            "name": "Jordan Lee",
+            "email": "jordan@company.com"
+        },
+        "tags": [
+            "Backend",
+            "Security",
+            "Bug"
+        ]
+    },
+    {
+        "id": "task_003",
+        "title": "Q2 Financial Report",
+        "description": "Compile and review the second-quarter financial statements for the board meeting.",
+        "status": "Completed",
+        "priority": "Medium",
+        "category": "Finance",
+        "dueDate": "2026-06-30",
+        "assignedTo": {
+            "name": "Sarah Jenkins",
+            "email": "sarah@company.com"
+        },
+        "tags": [
+            "Reports",
+            "Q2",
+            "Board"
+        ]
+    },
+    {
+        "id": "task_004",
+        "title": "Update Documentation",
+        "description": "Review and update the API endpoint documentation for the v2 release.",
+        "status": "In Progress",
+        "priority": "Low",
+        "category": "Operations",
+        "dueDate": "2026-07-10",
+        "assignedTo": null,
+        "tags": [
+            "Docs",
+            "API"
+        ]
+    },
+    {
+        "id": "task_005",
+        "title": "Prep Content Calendar",
+        "description": "Draft social media and blog post schedules for August.",
+        "status": "Todo",
+        "priority": "Medium",
+        "category": "Marketing",
+        "dueDate": "2026-07-15",
+        "assignedTo": {
+            "name": "Taylor Wong",
+            "email": "taylor@company.com"
+        },
+        "tags": [
+            "Content",
+            "Social Media"
+        ]
+    }
+]
