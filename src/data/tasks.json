@@ -7,10 +7,7 @@
         "priority": "High",
         "category": "Design",
         "dueDate": "2026-07-05",
-        "assignedTo": {
-            "name": "Alex Rivera",
-            "email": "alex@company.com"
-        },
+        "assignedTo": "Alex Rivera",
         "tags": [
             "UI/UX",
             "Figma",
@@ -25,10 +22,7 @@
         "priority": "Critical",
         "category": "Engineering",
         "dueDate": "2026-07-02",
-        "assignedTo": {
-            "name": "Jordan Lee",
-            "email": "jordan@company.com"
-        },
+        "assignedTo": "Jordan Lee",
         "tags": [
             "Backend",
             "Security",
@@ -43,10 +37,7 @@
         "priority": "Medium",
         "category": "Finance",
         "dueDate": "2026-06-30",
-        "assignedTo": {
-            "name": "Sarah Jenkins",
-            "email": "sarah@company.com"
-        },
+        "assignedTo": "Sarah Jenkins",
         "tags": [
             "Reports",
             "Q2",
@@ -63,7 +54,6 @@
         "dueDate": "2026-07-10",
         "assignedTo": null,
         "tags": [
-            "Docs",
             "API"
         ]
     },
@@ -75,10 +65,7 @@
         "priority": "Medium",
         "category": "Marketing",
         "dueDate": "2026-07-15",
-        "assignedTo": {
-            "name": "Taylor Wong",
-            "email": "taylor@company.com"
-        },
+        "assignedTo": "Taylor Wong",
         "tags": [
             "Content",
             "Social Media"
