@@ -34,6 +34,7 @@ const AddTask = ({ createATask }) => {
             <Modal.Body className="p-6">
               <Surface variant="default">
                 <form action={createATask} className="flex flex-col gap-4">
+                  {/* Title Field */}
                   <TextField
                     isRequired
                     className="w-full"
@@ -44,15 +45,17 @@ const AddTask = ({ createATask }) => {
                     <Label>Title</Label>
                     <Input placeholder="Enter your title" />
                   </TextField>
+
+                  {/* Description Field */}
                   <TextField
+                    isRequired
                     className="w-full"
                     name="description"
                     type="text"
                     variant="secondary"
-                    isRequired
                   >
-                    <Label>Email</Label>
-                    <Input placeholder="Enter your description" />
+                    <Label>Task Description</Label>
+                    <Input placeholder="Enter your Task Description" />
                   </TextField>
 
                   {/* status field */}
@@ -117,10 +120,9 @@ const AddTask = ({ createATask }) => {
                     </Select.Popover>
 
                     {/* Assigned field */}
-                    
                   </Select>
 
-                  {/* Assigned To */}
+                  {/* Assigned To Field */}
                   <Select
                     name="assigned"
                     variant="secondary"
